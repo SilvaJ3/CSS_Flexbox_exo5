@@ -2,15 +2,16 @@
     margin: 5px;
     background-color: orangered;
     padding: 50px;
-    height: 80px;
+    height: 12%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .flex-container {
     background-color: burlywood;
-    height: 1000px;
+    height: 100vh; 
+    /* Le 100vh permet d'appliquer une hauter équivalente à la hauteur de l'écran */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
